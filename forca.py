@@ -38,6 +38,9 @@ def imprime_apresentacao():
     print("*********************************")
     print("***Bem vindo ao jogo da Forca!***")
     print("*********************************")
+    print()
+    print("*****Acerte o nome da fruta!*****")
+    print()
 
 def define_palavra_secreta():
     arquivo = open("palavras.txt", "r")
