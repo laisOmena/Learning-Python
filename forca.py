@@ -30,8 +30,10 @@ def jogar():
 
     if (acertou):
         imprime_mensagem_vitoria()
+        continuar()
     else:
         imprime_mensagem_derrota(palavra_secreta)
+        continuar()
 
 
 def imprime_apresentacao():
@@ -160,6 +162,19 @@ def imprime_mensagem_derrota(palavra_secreta):
     print("    \_              _/      ")
     print("      \_          _/        ")
     print("        \________/          ")
+
+def continuar():
+    print("Deseja continuar jogando?")
+    continuar = int(input("Aperte [1] para sim e [0] para não."))
+
+    if continuar == 1:
+        jogar()
+    else:
+        print("Até logo!") 
+
+
+
+
 
 
 
