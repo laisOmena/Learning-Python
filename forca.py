@@ -165,7 +165,7 @@ def imprime_mensagem_derrota(palavra_secreta):
 
 def continuar():
     print("Deseja continuar jogando?")
-    continuar = int(input("Aperte [1] para sim e [0] para não."))
+    continuar = int(input("Aperte [1] para sim."))
 
     if continuar == 1:
         jogar()
